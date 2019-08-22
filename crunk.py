@@ -3,11 +3,11 @@
 ### Problem 1:
 # Create a program that prints the user input until they enter 'q' to quit.
 #
-# userInput = input("Enter something man or hit 'q' to quit ")
-#
-# while (userInput != 'q'):
-#     userInput = input("Keep trying bruh ")
-#     print(userInput)
+userInput = input("Enter something man or hit 'q' to quit ")
+
+while (userInput != 'q'):
+    userInput = input("Keep trying bruh ")
+    print(userInput)
 
 #
 # ### Problem 3:
@@ -16,10 +16,10 @@
 # If they enter ‘q’ or 0 (your choice), quit. Else, print “ERROR”.
 #
 # userInput = input("Enter '1', '2', '3', or '0' to quit ")
-#
+
 # while(userInput != '0'):
 #     userInput = int(input("Enter '1', '2', '3', or '0' to quit "))
-#     if(userInput == '1'):
+#     if(userInput == '1'): # you can't compare strings to integers
 #         print('1')
 #     elif(userInput == '2'):
 #         print('2')
